@@ -1,25 +1,25 @@
 class AiwikiToolkit < Formula
   desc "Local-first scaffold for repo-local and home-level AI wiki prompts"
   homepage "https://github.com/BochengYin/ai-wiki-toolkit"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.9/ai-wiki-toolkit-v0.1.9-macos-arm64.tar.gz"
-      sha256 "bdde0fea7e017139f20689b6158f62247c712dca143d975490556ff492cbd7c8"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.10/ai-wiki-toolkit-v0.1.10-macos-arm64.tar.gz"
+      sha256 "c515cd3347df62ce462b79a3c964a32e0ff490ce4cf5dc7e2a6c573ed89218cf"
     end
 
     on_intel do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.9/ai-wiki-toolkit-v0.1.9-macos-x64.tar.gz"
-      sha256 "438bb3743b9030edac0dab012abc6f4a2157395e08f107ec1b705a63ca4faecc"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.10/ai-wiki-toolkit-v0.1.10-macos-x64.tar.gz"
+      sha256 "32c63c50fd9a26c79d6148d19030b36d9851db724abe9825b632383cfffa2272"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.9/ai-wiki-toolkit-v0.1.9-linux-x64.tar.gz"
-      sha256 "8e629e9470b04461bfd801f59e37952bd5e869f85ce9325d0dcf68a145f61122"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.10/ai-wiki-toolkit-v0.1.10-linux-x64.tar.gz"
+      sha256 "0c26905a1bca7f6fd4c05f8665116705499545d9a5dbf54c3e9e1fa27989a988"
     end
   end
 
