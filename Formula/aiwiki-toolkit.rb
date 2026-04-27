@@ -1,30 +1,30 @@
 class AiwikiToolkit < Formula
   desc "Local-first scaffold for repo-local and home-level AI wiki prompts"
   homepage "https://github.com/BochengYin/ai-wiki-toolkit"
-  version "0.1.21"
+  version "0.1.22"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.21/ai-wiki-toolkit-v0.1.21-macos-arm64.tar.gz"
-      sha256 "c1a48fb4504f4778d3cd2afbb8582969f34c0b7be0fe918e546f1def95296aed"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.22/ai-wiki-toolkit-v0.1.22-macos-arm64.tar.gz"
+      sha256 "1de7a9a83f1292119a686e189beca0dcc28faf037b98f8fa45fcff0071c32be7"
     end
 
     on_intel do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.21/ai-wiki-toolkit-v0.1.21-macos-x64.tar.gz"
-      sha256 "27fcdd2f35463b5eb74bcf9ff140d7538acfbff8b3f49f48e1497650d5146fc0"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.22/ai-wiki-toolkit-v0.1.22-macos-x64.tar.gz"
+      sha256 "214866ff673aa8130a8aac4fa3fcfea29c0224a610a59d1ba12248c22639830b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.21/ai-wiki-toolkit-v0.1.21-linux-arm64.tar.gz"
-      sha256 "93627cfc4855df273b6d2b57f8a34aab9e60636183d39cd12b659ad0be528a68"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.22/ai-wiki-toolkit-v0.1.22-linux-arm64.tar.gz"
+      sha256 "00b217fd75c4526571c11ef8ee80c39a58cc3b464f90a857e92cef8c2166c144"
     end
 
     on_intel do
-      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.21/ai-wiki-toolkit-v0.1.21-linux-x64.tar.gz"
-      sha256 "4c02828851ba51950324747babfe25099731cfab5d858e61ad9b112736d33542"
+      url "https://github.com/BochengYin/ai-wiki-toolkit/releases/download/v0.1.22/ai-wiki-toolkit-v0.1.22-linux-x64.tar.gz"
+      sha256 "3d5a7b0ee405b7994144f954a6285770dcf11f9ac34ee28317bc10dfbdfcb395"
     end
   end
 
